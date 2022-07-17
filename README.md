@@ -1,5 +1,13 @@
 # Android Informations
 
+## Liens interessants :
+
+https://www.frandroid.com/android/rom-custom-2/403222_comment-telecharger-les-outils-adb-et-fastboot-sur-windows-macos-et-linux
+
+## Logiciel ADB only
+
+link : https://forum.xda-developers.com/t/tool-minimal-adb-and-fastboot-2-9-18.2317790/
+
 ## Android Debug Bridge
 
 Here is the list of ADB command for Android device. Before using it, it's necessassy to activate the developer mode on your Android device.
@@ -67,6 +75,11 @@ Ex : adb -s emulator-5554 shell
 
 Cette commande permet d'utiliser les commandes shell basiques de Linux directement sur le terminal sélectionné, sans passer par l'application Terminal Emulator. 
 Ex :  adb -s emulator-5554 shell ls
+
+
+### adb force install
+
+Lancer la commande : **adb install -r file.apk**
 
 ### adb install "path_file_apk_to_install".apk
 
